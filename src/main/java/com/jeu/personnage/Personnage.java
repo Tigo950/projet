@@ -10,6 +10,9 @@ public Personnage(){
 }
 public static String tourner(int fois){
     if(fois%4==1) return"EST";
+    else if (fois%4==2) return "SUD";
+    /*else if(fois%4==3) return "OUEST";
+    else if(fois%4==0) return "NORD";*/
     return "NULL";
 }
 
