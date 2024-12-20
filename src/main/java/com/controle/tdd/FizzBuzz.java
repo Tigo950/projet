@@ -10,7 +10,8 @@ public class FizzBuzz {
             } else if (n % 5 == 0) {
                 return "Buzz";
             } else {
-                return String.valueOf(n);
+                return String.valueOf(n);//Si aucune des conditions ci-dessus n'est remplie, la méthode retourne le nombre lui-même, converti en chaîne de caractères avec
+
             }
         }
     }
